@@ -36,7 +36,7 @@ function Banner() {
             <div className="banner_components">
                 <h1 className="banner_title">{movie?.title || movie?.name || movie?.original_name}</h1>
                 <button className="banner_btn">Play</button>
-                <button className="banner_btn">My List</button>
+                <button className="banner_btn">My Lists</button>
                 <h1 className="banner_discription">{over(movie.overview,180)}</h1>
             </div>
             <div className="fade_color"></div>
